@@ -1,0 +1,46 @@
+.CreatePost{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+
+}
+
+.CreatePost form{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+/* h2{
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgb(233, 233, 233);
+} */
+
+.inputElement{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.inputElement input,button, textarea{
+    padding: 10px;
+    border: 2px solid rgba(46, 46, 46, 0.562);
+    border-radius: 10px;
+    margin-top: 3px;
+}
+
+button{
+    font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+button:hover{
+    background-color: rgb(27, 24, 24);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(27, 24, 24);
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    /* background-color: rgba(36, 33, 33, 0.712); */
+    color: white;
+
+
+}
+
+a:hover{
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+}

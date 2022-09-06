@@ -17,7 +17,7 @@ router.post("/", async (req,res) => {
 // Get all post at once
 router.get("/", async (req,res) => {
     try{
-        const Posts = await PostModel.find();
+        const Posts = await PostModel.find().sort({createdAt: -1});
         const newPosts = [];
         for(let i=0;i<Posts.length;i++){
             const User = await UserModel.findById(Posts[i].User);
